@@ -9,37 +9,38 @@ theme: jekyll-theme-chirpy
 lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone:
+timezone: "Europe/Amsterdam"
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Coding Notes # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: Notes about the programming; Mostly in C++ # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  Oğuzhan Katlı, C++20, C++, C++98, Modern C++, STL, Object Lifetimes, Asynchronous Calls, Lifespan Management, Modern C++ Programming, Code Readability, Callback Functions, Software Development Best Practices, GitHub Repository, template metaprogramming, traits, type traits, cpp, C, C++ Türkiye, system programming, design patterns, OOP, concurrency, parallel programming, multithread, boost, boost C++, Qt, model driven development, gtest, google test framework, cmake, nsis, git, subversion
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://nixiz.github.io"
 
 github:
-  username: github_username # change to your GitHub username
+  username: nixiz # change to your GitHub username
 
 twitter:
-  username: twitter_username # change to your Twitter username
+  username: oguzhankatli # change to your Twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Oğuzhan Katlı
+  email: oguzhankatli@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
+    - https://www.linkedin.com/in/ogzhnktl
+    - https://twitter.com/oguzhankatli # change to your Twitter homepage
+    - https://github.com/nixiz # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -59,7 +60,7 @@ webmaster_verifications:
 # Web Analytics Settings
 analytics:
   google:
-    id: # fill in your Google Analytics ID
+    id: G-H2S23EEXJ9
   goatcounter:
     id: # fill in your GoatCounter ID
   umami:
@@ -98,7 +99,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: "/assets/img/cpp_logo.png"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
