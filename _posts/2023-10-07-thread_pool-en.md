@@ -14,7 +14,7 @@ gh-badge: [star, follow]
 tags: [C++, threadpool, template, modern-cpp, OOP]
 ---
 
-![Thread Pool](/yazilim-notlari/assets/img/thread_pool_banner.png){: .mx-auto.d-block :}
+![Thread Pool](/assets/img/thread_pool_banner.png){: .mx-auto.d-block :}
 
 ## Thread Pool Implementation in C++
 
@@ -181,7 +181,7 @@ post(Executor& exec, std::tuple<use_future_tag, Fn>&& tpl)
 **Quote:** *"All problems in computer science can be solved by another level of indirection",  Butler Lampson, 1972*
 
 - **Second `post` Function:** As the `thread_pool` class only accepts `std::packaged_task<void()>` type of callable into its queue, I had to create a higher order function, a local callable class `forwarder_t` which makes the actual function call, stores the return value into a promise object and returns void. When the `thread_pool` run the task which has return value, the following sequence will be executed:
-    ![Sequence Diagram](/yazilim-notlari/assets/img/use_future_high_order_sequence_diagram.png){: .mx-auto.d-block :}
+    ![Sequence Diagram](/assets/img/use_future_high_order_sequence_diagram.png){: .mx-auto.d-block :}
 
 ## Complete Example
 

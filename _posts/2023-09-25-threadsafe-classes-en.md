@@ -14,7 +14,7 @@ gh-badge: [star, follow]
 tags: [C++, threadsafe, template, modern-cpp, OOP]
 ---
 
-![C++ Road Map](/yazilim-notlari/assets/img/thread_safe_banner_2.png){: .mx-auto.d-block :}
+![C++ Road Map](/assets/img/thread_safe_banner_2.png){: .mx-auto.d-block :}
 
 ## TL;DR
 
@@ -167,7 +167,7 @@ However, despite these improvements, there is still a lack of libraries that mak
 
 ## Lockable Class Definition by Andrei Alexandrescu
 
-![Modern C++ Design: Generic Programming and Design Patterns Applied](/yazilim-notlari/assets/img/ModernCppDesignBookCover.jpg)
+![Modern C++ Design: Generic Programming and Design Patterns Applied](/assets/img/ModernCppDesignBookCover.jpg)
 
 If you haven't read it yet, 'Modern C++ Design: Generic Programming and Design Patterns Applied' is undeniably one of the most crucial books for those seeking to gain a profound understanding of the C++ language. Authored by the Andrei Alexandrescu, this book goes beyond the boundaries of conventional C++ programming and teaches you how to use generic programming and design patterns to write elegant, efficient, and reusable code. From the book, in Chapter 7 where he explains about smart pointers, he also mention about pre-and postfunction calls (Stroustrup 2000) idiom when returning a PointerType object by value from operator->, the sequence of execution is: constructor, operator->, member access, destructor.
 Which means, If you are returning a value type of a proxy type from the `operator->()` operator on your smart pointer, than your code will be compiled into steps defined below:

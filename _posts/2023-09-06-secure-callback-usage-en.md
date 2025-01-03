@@ -16,7 +16,7 @@ tags: [C++, templates, async, callback, modern-cpp, OOP]
 
 Managing the lifetimes of objects in C and C++ projects can be tricky, especially in places where asynchronous calls are made. This is because the lifetimes of objects that will receive feedback are not automatically extended in these places. This can lead to errors and crashes, so it's important to understand how to manage object lifetimes in these situations.
 
-![C++ Road Map](/yazilim-notlari/assets/img/async_cb_banner.png){: .mx-auto.d-block :}
+![C++ Road Map](/assets/img/async_cb_banner.png){: .mx-auto.d-block :}
 
 ---
 

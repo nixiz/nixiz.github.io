@@ -14,7 +14,7 @@ tags: [C++, lazy evaluation, templates, programming]
 
 In my article where I introduced the [Range library](/yazilim-notlari/2020/12/17/cpp20-ranges) that came with the C++20 standard, I discussed the library's lazy evaluation approach and the benefits it brings to the language. While introducing the Range library, I attempted to convey its adapters and generators through practical examples without diving into technical details. However, understanding the Range library without understanding the concept of lazy evaluation can be challenging. Therefore, I'd like to talk to you about lazy evaluation and how the Range library enables it.
 
-![Expression Tempale Origin](/yazilim-notlari/assets/img/expression_template_origin.png){: .mx-auto.d-block :}
+![Expression Tempale Origin](/assets/img/expression_template_origin.png){: .mx-auto.d-block :}
 
 ---
 
@@ -26,7 +26,7 @@ Lazy evaluation is a crucial concept in C++ that allows us to delay computations
 
 Lazy evaluation, which was first introduced in 1995 with the Expression Templates technique, is a core architectural concept in numerical computation libraries like [Blaze](https://bitbucket.org/blaze-lib/blaze/src/master/), [Boost.UBlas](https://www.boost.org/doc/libs/1_75_0/libs/numeric/ublas/doc/index.html), and [Blitz](https://github.com/blitzpp/blitz). Despite its simple underlying structure, lazy evaluation can have a significant impact on performance.
 
-![Matrix Calculation Benchmark](/yazilim-notlari/assets/img/matrix_multip_benchmark.png){: .mx-auto.d-block :}
+![Matrix Calculation Benchmark](/assets/img/matrix_multip_benchmark.png){: .mx-auto.d-block :}
 
 Although lazy evaluation has been known for a long time, it was not widely adopted by developers until the introduction of C++11 and later versions. This is because C++11 introduced a number of features that simplified the syntax of lazy evaluation, such as the `auto` type deducer, variadic templates, and lambda expressions. These features made it easier for developers to write and understand code that uses lazy evaluation, making it a more accessible option for a wider range of projects
 
