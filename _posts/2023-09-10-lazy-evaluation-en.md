@@ -12,7 +12,7 @@ language: en
 tags: [C++, lazy evaluation, templates, programming]
 ---
 
-In my article where I introduced the [Range library](/nixiz.github.io/2020/12/17/cpp20-ranges) that came with the C++20 standard, I discussed the library's lazy evaluation approach and the benefits it brings to the language. While introducing the Range library, I attempted to convey its adapters and generators through practical examples without diving into technical details. However, understanding the Range library without understanding the concept of lazy evaluation can be challenging. Therefore, I'd like to talk to you about lazy evaluation and how the Range library enables it.
+In my article where I introduced the [Range library](https://nixiz.github.io/yazilim-notlari/2020/12/17/cpp20-ranges) that came with the C++20 standard, I discussed the library's lazy evaluation approach and the benefits it brings to the language. While introducing the Range library, I attempted to convey its adapters and generators through practical examples without diving into technical details. However, understanding the Range library without understanding the concept of lazy evaluation can be challenging. Therefore, I'd like to talk to you about lazy evaluation and how the Range library enables it.
 
 ![Expression Tempale Origin](/assets/img/expression_template_origin.png){: .mx-auto.d-block :}
 
