@@ -11,7 +11,7 @@ show-avatar: false
 language: tr
 gh-repo: nixiz
 gh-badge: [star, follow]
-tags: [C++, threadpool, template, modern-cpp, OOP]
+tags: [C++, C++17, threadpool, template, modern-cpp, OOP]
 ---
 
 ![Thread Pool](/assets/img/thread_pool_banner.png){: .mx-auto.d-block :}
