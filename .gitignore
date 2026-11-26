@@ -21,6 +21,8 @@ package-lock.json
 !.vscode/settings.json
 !.vscode/extensions.json
 !.vscode/tasks.json
+.agents/*
+.DS_Store
 
 # Misc
 _sass/vendors
